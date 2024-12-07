@@ -31,12 +31,3 @@ This is a command-line implementation of the **Warzone Game** written in **Java*
 1. Players (human and AI) are assigned territories at the start of the game.  
 2. Turns involve deploying troops, attacking opponents, and defending territories.  
 3. Victory is achieved by eliminating all opponents and conquering all territories.  
-
----
-
-## Installation and Execution  
-
-1. Clone the repository:  
-   ```bash  
-   git clone <repository_url>  
-   cd warzone-game  
