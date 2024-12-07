@@ -1,0 +1,44 @@
+[Map]
+image=Deutsches Kaiserreich.bmp
+wrap=no
+scroll=horizontal
+author=Maxime Gousse
+
+[Continents]
+Royal Prussia= 2
+Saxony Duchy= 2
+North Sea Duchies= 2
+Bavaria Kingdom= 3
+Rhine Confederation= 3
+Hanover Electorate= 2
+
+[Territories]
+East Prussia, 633, 107, Royal Prussia, West Prussia
+West Prussia, 524, 156, Royal Prussia, East Prussia, Pomerania, Brandenburg, Posen
+Pomerania, 395, 172, Royal Prussia, West Prussia, Brandenburg, Mecklenburg, Sterlitz
+Posen, 475, 250, Royal Prussia, West Prussia, Brandenburg, Silesia
+Silesia, 469, 333, Royal Prussia, Posen, Brandenburg,  Saxony-Anhalt,  Saxony
+
+Sterlitz, 318, 189, North Sea Duchies, Mecklenburg, Pomerania, Brandenburg
+Mecklenburg, 260, 163, North Sea Duchies, Sterlitz, Pomerania, Brandenburg, Hanover, Holstein
+Holstein, 192, 151, North Sea Duchies, Mecklenburg, Hanover, Schleswig
+Schleswig, 161, 101, North Sea Duchies, Holstein
+
+Brandenburg, 348, 246, Saxony Duchy , Pomerania, West Prussia, Posen, Silesia, Saxony-Anhalt, Hanover, Sterlitz, Mecklenburg
+Saxony-Anhalt, 252, 301, Saxony Duchy , Brandenburg, Silesia, Saxony, Thuringia, Hesse-Nassau, Hanover
+Saxony, 327, 353, Saxony Duchy , Silesia, Bayern, Thuringia, Saxony-Anhalt
+Thuringia, 232, 373, Saxony Duchy , Saxony-Anhalt, Saxony, Bayern, Hesse-Nassau
+
+Bayern, 252, 491, Bavaria Kingdom, Saxony, Thuringia, Wurttemberg, Baden, Hesse, Hesse-Nassau
+Wurttemberg, 154, 506, Bavaria Kingdom, Bayern, Baden
+Hesse, 118, 428, Bavaria Kingdom, Bayern, Hesse-Nassau, Baden, Palatinate, Rhine Province
+Hesse-Nassau, 161, 350, Bavaria Kingdom, Saxony-Anhalt, Thuringia, Bayern, Hesse, Rhine Province, Westphalia, Hanover
+
+Baden, 109, 481, Rhine Confederation, Wurttemberg, Bayern, Alsace-Lorraine, Palatinate, Hesse
+Alsace-Lorraine, 64, 505, Rhine Confederation, Baden, Palatinate, Rhine Province
+Palatinate, 86, 454, Rhine Confederation, Alsace-Lorraine, Baden, Hesse, Rhine Province
+Rhine Province, 50, 381, Rhine Confederation, Palatinate,  Alsace-Lorraine, Hesse, Hesse-Nassau, Westphalia
+
+Westphalia, 103, 307, Hanover Electorate, Hanover, Hesse-Nassau, Rhine Province
+Hanover, 166, 226, Hanover Electorate, Holstein, Mecklenburg, Brandenburg, Saxony-Anhalt, Hesse-Nassau, Westphalia, Oldenburg
+Oldenburg, 109, 208, Hanover Electorate, Hanover

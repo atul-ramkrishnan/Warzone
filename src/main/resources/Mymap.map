@@ -1,0 +1,11 @@
+
+[continents]
+Continent1 5 white
+
+[countries]
+1 Country1 1
+2 Country2 1
+
+[borders]
+1 2
+2 1
